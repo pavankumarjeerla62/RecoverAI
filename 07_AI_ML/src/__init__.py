@@ -14,6 +14,11 @@ from .recovery_agent import (
     execute_recovery,
     get_recovery_agent,
 )
+from .recovery_pipeline import (
+    RecoveryPipeline,
+    get_recovery_pipeline,
+    run_recovery_pipeline,
+)
 
 __all__ = [
     "RecoveryPredictionService",
@@ -26,4 +31,7 @@ __all__ = [
     "RecoveryAgent",
     "get_recovery_agent",
     "execute_recovery",
+    "RecoveryPipeline",
+    "get_recovery_pipeline",
+    "run_recovery_pipeline",
 ]
