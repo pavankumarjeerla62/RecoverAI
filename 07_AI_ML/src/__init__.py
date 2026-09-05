@@ -9,6 +9,11 @@ from .prediction_service import (
     get_prediction_service,
     predict_recovery,
 )
+from .recovery_agent import (
+    RecoveryAgent,
+    execute_recovery,
+    get_recovery_agent,
+)
 
 __all__ = [
     "RecoveryPredictionService",
@@ -18,4 +23,7 @@ __all__ = [
     "get_decision_engine",
     "make_decision",
     "evaluate_prediction",
+    "RecoveryAgent",
+    "get_recovery_agent",
+    "execute_recovery",
 ]
